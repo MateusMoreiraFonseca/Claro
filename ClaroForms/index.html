@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Claro Postagem</title>
+    <link rel="stylesheet" type="text/css" href="stylesClaro.css">
+</head>
+
+<body>
+    <header role="banner">
+        <div class="header">
+            <div class="div1">
+                <div class="conteudo-div1">
+                    <div class="logo">
+                        <div class="imglogo">
+                            <img src="https://mondrian.claro.com.br/brands/inverse/claro.svg" alt="Logo-Claro">
+                        </div>
+                    </div>
+                    <div class="meiotopo">
+                        <a class="item1">PARA SEU CELULAR</a>
+                        <a class="item2">PARA SUA CASA</a>
+                    </div>
+                    <div class="fone">
+                        <div class="caixa-imagem">
+                            <div class="cel" alt="Logo-Celular">
+                                ☏
+                            </div>
+                            <a class="numero">0800 720 1234</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="div2">
+                    <div class="elementos-menu">
+                        <a class="first">Claro pós</a>
+                        <a class="second">Claro Controle</a>
+                        <a class="third">Smartphones</a>
+                        <div class="meio">
+                            <a class="half1">Monte<br>seu combo</a>
+                        </div>
+                        <a class="fourth">TV</a>
+                        <a class="fifth">Banda larga</a>
+                        <a class="sixth">Prezão</a>
+                    </div>
+                </div>
+            </div>
+    </header>
+
+    <main role="main">
+        <div class="blocao">
+            <div class="imgbackground">
+                <div class="content">
+                    <div class="bloco-frase">
+                        <div class="frase">
+                            <h1>NA FIBRA OU NO 5G:<br>O MELHOR DA INTERNET<br>ONDE VOCÊ ESTIVER.</h1>
+                        </div>
+                    </div>
+
+                    <div class="wrapper">
+                        <div class="container" id="boxContainer">
+                            <!-- As postagens são feitas aqui -->
+                        </div>
+                    </div>
+
+                    <form id="buscaForm">
+                        <fieldset>
+                            <legend>Pesquisar</legend>
+                            <div class="form-group">
+                                <input type="text" id="buscaInput" placeholder="Digite o termo de busca...">
+                            </div>
+
+
+                        </fieldset>
+                    </form>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="blocao">
+            <div class="imgbackground2">
+                <div class="blocaoPostagens">
+                    <form id="postForm">
+                        <fieldset>
+                            <legend>Dados da Postagem</legend>
+                            <div class="form-group">
+                                <label for="tituloInput">Título:</label>
+                                <input type="text" id="tituloInput" placeholder="Digite o Título" required
+                                    maxlength="15">
+                            </div>
+
+                            <div class="form-group">
+                                <label for="categoriaInput">Categoria:</label>
+                                <input type="text" id="categoriaInput" placeholder="Digite a Categoria" required
+                                    maxlength="20">
+                            </div>
+
+                            <div class="form-group">
+                                <label for="imagemInput">URL da Imagem:</label>
+                                <input type="text" id="imagemInput" placeholder="Digite o URL da imagem" required>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="conteudoInput">Conteúdo:</label>
+                                <textarea id="conteudoInput" placeholder="Digite o Conteúdo" required></textarea>
+                            </div>
+                        </fieldset>
+
+                        <button type="submit" id="btAddPostagem" aria-label="Adicionar Postagem">Adicionar
+                            Postagem</button>
+
+                        <button type="button" id="btLimparCampos" aria-label="Limpar Campos">Limpar Campos</button>
+
+                    </form>
+
+
+                </div>
+
+
+                <fieldset class="fieldset2">
+                    <legend>Menu Avisos</legend>
+                    <div id="avisosContainer" role="contentinfo"></div>
+                </fieldset>
+
+            </div>
+
+        </div>
+        </div>
+    </main>
+
+    <footer role="contentinfo">
+        <noscript>
+            <p>Para utilizar todas as funcionalidades deste site, é necessário habilitar o JavaScript.</p>
+        </noscript>
+
+    </footer>
+
+    <script src="script.js"></script>
+
+
+</body>
+
+</html>

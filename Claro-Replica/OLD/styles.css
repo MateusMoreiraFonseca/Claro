@@ -1,0 +1,381 @@
+.div1 {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 90px;
+	background-color: #E3262E;
+}
+
+.div2 {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 60px;
+	background-color: #ffffff;
+}
+
+.elementos-menu {
+	position: fixed;
+	justify-content: space-between;
+	width: 100%;
+	display: flex;
+	align-items: center;
+}
+
+.Logo {
+	position: absolute;
+	left: 10%;
+	top: -35%;
+}
+
+.item1 {
+	color: white;
+	margin: 0px 25px 0px 0px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	font-size: 15px;
+}
+
+.item2 {
+	color: white;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	font-size: 15px;
+}
+
+.fone {
+	position: absolute;
+	right: 20%;
+}
+
+.numero {
+	position: absolute;
+	color: white;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	font-size: 20px;
+	top: 40%;
+	width: 300px;
+	left: 100%;
+}
+
+.first {
+	color: #666666;
+	font-size: 18px;
+	margin-left: 10%;
+}
+
+.second {
+	color: #666666;
+	font-size: 18px;
+}
+
+.third {
+	color: #666666;
+	font-size: 18px;
+}
+
+.half1 {
+	color: #E3262E;
+	font-size: 18px;
+	align-items: center;
+	text-align: center;
+	font-weight: bold;
+}
+
+.fourth {
+	color: #666666;
+	font-size: 18px;
+}
+
+.fifth {
+	color: #666666;
+	font-size: 18px;
+}
+
+.sixth {
+	color: #666666;
+	font-size: 18px;
+	margin-right: 15%;
+}
+
+.header {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 60px;
+	background-color: #fff;
+	z-index: 100;
+	transition: all 0.3s ease-in-out;
+}
+
+.scrolled {
+	height: 40px;
+	background-color: #f5f5f5;
+}
+
+.imgbackground {
+	background-image: url(https://tecmasters.com.br/wp-content/uploads/2021/12/Claro-1.jpg);
+	background-size: cover;
+	width: 110%;
+	margin-left: -5%;
+	height: auto;
+	padding: 0%;
+	border: 0%;
+}
+
+.content {
+	max-width: 200%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-start;
+}
+
+.container {
+	display: flex;
+	justify-content: space-between;
+	max-width: 65%;
+	max-height: 100%;
+	align-items: center;
+	margin: 0 auto;
+	position: relative;
+	overflow: hidden;
+	list-style: none;
+	padding: 0;
+	z-index: 1;
+	padding-bottom: var(--theme-spacing-stack-lg);
+	align-items: stretch;
+	flex-wrap: wrap;
+	flex-direction: row;
+	margin-top: 10%;
+}
+
+.box-wrapper {
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+	flex-basis: calc(1.5em - 10px);
+	background-color: #ffffff;
+	border: 0;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	width: auto;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin: 0 1%;
+	flex-basis: 190%;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+	flex: 1 1 1%;
+	height: 30rem !important;
+}
+
+.box-header {
+	flex-direction: column;
+	background-color: #f02b2b;
+
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	justify-content: center;
+	align-items: center;
+	width: 100% !important;
+	display: inline-block;
+	width: auto;
+}
+
+.box-title {
+	display: flex;
+	justify-content: center;
+	color: #fff;
+	align-items: center;
+	font-weight: bold;
+	font-size: 15px;
+	padding: 0;
+	border: 0;
+	font-family: var(--font-family-highlight);
+	margin-top: 5%;
+	margin-bottom: 1%;
+	text-align: center;
+}
+
+.subtitle {
+	display: flex;
+	justify-content: center;
+	margin: 0;
+	color: #ffbc4a;
+	align-items: center;
+	font-weight: bold;
+	font-size: 10px;
+	padding: 0;
+	border: 0;
+	margin-top: 1%;
+	margin-bottom: 5%;
+}
+
+.box-content {
+	width: 100%;
+	float: right;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.box {
+	margin: 5%;
+	align-items: center;
+	height: 150%;
+
+}
+
+.frase {
+	color: #fff;
+	text-align: center;
+	text-shadow: 2px 2px #000;
+	text-align: left;
+	margin-left: 50%;
+
+}
+
+.box-botao {
+	border-bottom: 10px;
+	border-bottom: 10px;
+}
+
+.botao {
+	margin-top: 20px;
+	padding: 10px 20px;
+	border: none;
+	border-radius: 20px;
+	background-color: #ffbc4a;
+	color: #000000;
+	font-size: 1.2em;
+	font-weight: bold;
+	align-self: center;
+	margin-bottom: 10%;
+	font-weight: bold;
+
+}
+
+.botoes {
+	margin: 0;
+	padding: 3%;
+	font-size: 100%;
+	vertical-align: baseline;
+	font-family: var(--font-family-highlight);
+	text-align: center;
+}
+
+.botoes button {
+	width: 80px;
+	height: 40px;
+	font-size: 16px;
+}
+
+button#prevBtn,
+button#nextBtn {
+	border: none;
+	background: #f5f5f5;
+	font-size: 2em;
+	color: red;
+	padding: 0;
+	border-radius: 10px;
+	opacity: 0.5;
+}
+
+
+
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+
+
+	.Logo {
+		left: 5%;
+		top: -30%;
+	}
+
+	.item1,
+	.item2 {
+		display: none;
+	}
+
+	.fone,
+	.numero {
+		margin-right: 30%;
+	}
+
+	.half1 {
+		display: block;
+		align-self: center;
+	}
+
+	.first,
+	.second,
+	.third,
+	.fourth,
+	.fifth,
+	.sixth {
+		display: none;
+	}
+
+	.elementos-menu {
+		display: flex;
+		justify-content: center;
+	}
+
+	.header {
+		height: 50px;
+	}
+
+	.scrolled {
+		height: 30px;
+	}
+
+	.frase {
+		display: none;
+	}
+
+	.container {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		text-align: center;
+		width: 28%;
+		height: 24% !important;
+		margin-top: 15%;
+		flex-shrink: 0;
+		text-align: center;
+		position: relative;
+
+	}
+
+	#box-wrapper-2,
+	#box-wrapper-3 {
+		display: none;
+	}
+
+	.box-wrapper {
+		align-items: center;
+		align-content: center;
+		text-align: center;
+		width: 300px !important;
+		margin-top: 20%;
+		position: relative;
+	}
+
+	#box-wrapper-1 {
+		display: flex;
+	}
+
+	.wrapper {
+
+		height: 310%;
+		display: flexbox;
+	}
+
+	.body {
+		display: flexbox;
+		width: auto;
+		height: auto;
+	}
+}

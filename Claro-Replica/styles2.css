@@ -1,0 +1,403 @@
+.header {
+    position: top;
+    top: 0;
+    left: 0;
+    width: 100%;
+    border: 7%;
+    background-color: #fff;
+    z-index: 100;
+    transition: all 0.3s ease-in-out;
+}
+
+.frase2{
+    opacity: 0;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 160px;
+}
+
+.logo img {
+    max-width: 65px;
+}
+
+.div1 {
+    background-color: #E3262E;
+    font-size: 10px;
+    flex-wrap: wrap;
+    align-items: center;
+
+}
+
+.conteudo-div1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 65px;
+    padding-left: 45vh;
+    padding-right: 45vh;
+    border: 0;
+    box-sizing: border-box;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.conteudo-div1 a {
+    color: #fff;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+
+}
+
+.conteudo-div1 a:hover {
+    text-decoration: underline;
+}
+
+.div2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    background-color: #ffffff;
+
+}
+
+.meiotopo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 20rem;
+
+}
+
+.meiotopo a.item1 {
+    margin-right: 0.8rem;
+    margin-right: 0.8rem;
+
+
+}
+
+.meiotopo a.item2 {
+    margin-left: 0.8rem;
+    margin-right: 0.8rem;
+
+
+}
+
+
+.fone {
+    display: flex;
+    align-items: center;
+
+    color: #fff;
+    height: 10px;
+    font-size: 14px;
+
+    width: 160px;
+    align-items: center;
+    text-align: center;
+    align-content: center;
+
+}
+
+.cel {
+    margin-top: -10px;
+    display: inline;
+    width: 50px;
+    height: 50px;
+
+}
+
+.numero {
+
+    text-align: center;
+    align-items: center;
+
+}
+
+
+
+.elementos-menu a {
+    color: gray;
+    width: 5rem;
+    text-align: center;
+}
+
+.elementos-menu .half1 {
+    color: red;
+}
+
+.elementos-menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 3rem;
+    font-size: 11px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+
+
+
+}
+
+.meio {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.half1 {
+    text-align: center;
+    display: inline-block;
+}
+
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.box-wrapper {
+    width: 33%;
+    margin: 0 10px;
+}
+
+.frase{
+    margin-left: calc(40%);
+}
+.frase,.frase2 {
+    color: #fff;
+    
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+
+
+}
+
+.box-wrapper {
+    background-color: #fff;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+
+    width: 13rem;
+    align-items: center;
+    min-height: 20rem;
+
+}
+
+.box-header {
+    background-color: #E3262E;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+
+    margin: 0%;
+    border: 0%;
+    padding: 0%;
+    top: 0;
+    z-index: 1;
+
+}
+
+.box-title {
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    align-items: center;
+    font-weight: bold;
+    font-size: 15px;
+    padding: 0;
+    border: 0;
+    font-family: var(--font-family-highlight);
+    margin: 0px;
+    text-align: center;
+    padding-top: 4%;
+
+}
+
+.box-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3rem;
+}
+
+.box-content img,
+.box {
+    margin-top: 5%;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    height: 13rem;
+
+}
+
+.subtitle {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    color: #ffbc4a;
+    align-items: center;
+    font-weight: bold;
+    font-size: 10px;
+    padding: 0;
+    border: 0;
+    margin-top: 2%;
+    padding-bottom: 5%;
+
+}
+
+.box {
+    align-items: center;
+    text-align: center;
+    align-content: center;
+}
+
+.box-botao {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.botao {
+    margin-top: 10%;
+    margin-bottom: 10%;
+    border: none;
+    border-radius: 20px;
+    background-color: #ffbc4a;
+    color: #000000;
+    font-size: 0.8em;
+    align-self: center;
+    padding: 8px 25px;
+}
+
+.botoes {
+    display: none;
+}
+
+.header,
+.imgbackground{
+    min-width: 230px;
+}
+.imgbackground {
+    background-size: cover;
+    height: max-content;
+    display: flex;
+    justify-content: center;
+    margin-top: 0px;
+    background-image: url('https://www.claro.com.br/produtosclaro/novo_produtos/img/desktop.png');
+    margin: 0;
+    padding: 0;
+    width: auto;
+    
+
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;    
+
+}
+.botoes {
+	margin: 0;
+	padding: 3%;
+	font-size: 100%;
+	vertical-align: baseline;
+	font-family: var(--font-family-highlight);
+	text-align: center;
+}
+
+.botoes button {
+	width: 40px;
+	height: 40px;
+	font-size: 16px;
+}
+
+button#prevBtn,
+button#nextBtn {
+	border: none;
+	background: #f5f5f5;
+	font-size: 2em;
+	color: red;
+	padding: 0;
+	border-radius: 10px;
+	opacity: 0.5;
+}
+
+@media only screen and (max-width: 770px) {
+
+    .div2,
+    .item1,
+    .item2,
+    #box-wrapper-2,
+    #box-wrapper-3,
+    .frase {
+        display: none;
+    }
+    .frase2{
+        opacity: 1;
+        text-align: center;
+        font-size: 12px;
+        display: flex;
+    }
+    .botoes{
+        display: flex;
+
+    }
+
+    .header,
+    .conteudo-div1,
+    .div1,
+    .logo,
+    .fone {
+        border: 0;
+        margin: 0cm;
+        padding: 0;
+
+    }
+
+    .conteudo-div1 {
+        align-items: center;
+        text-align: center;
+        align-content: center;
+        margin-left: 15%;
+
+    }
+
+    .fone {
+        width: 100%;
+        align-items: center;
+        text-align: center;
+        align-content: center;
+    }
+
+    .numero {
+        display: block;
+    }
+
+    .content {
+        margin-top: 100px;
+    }
+    .conteiner,.box-wrapper{
+        height: 350px;
+    }
+
+
+}
